@@ -1,5 +1,7 @@
 let v = "10"
 
+
+// console.log => 
 console.log() // new terminal line
 console.log("v", v) // label => variable name => so we know in terminal which variable we print out
 console.log() // new terminal line

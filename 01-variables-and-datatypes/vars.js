@@ -39,3 +39,6 @@ console.log(undefined+"a") // undefineda => if we add a string, undefined is con
 console.log(werBinIch+"a") // undefineda => same as above
 console.log(undefined + "10") // undefined10 => same as above
 console.log(undefined + 10) // NaN. Vielen Dank :-D
+
+
+console.log(document)
