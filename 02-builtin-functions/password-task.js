@@ -35,8 +35,7 @@ const check6 = password[password.length - 1] != "!";  // last char != "!"
 
 // LOGIC
 if (
-  // h !== h => stimmt nicht!
-  // first and last char different (!=)
+  // all 6 checks must match (so we use && operator)
   check1 && check2 && check3 && check4 && check5 && check6
 ) {
   console.log("Password correct");
