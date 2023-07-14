@@ -40,16 +40,16 @@ function repeatString(stringy, num) {
   return stringy.repeat(num); // repeat the string N times
 }
 
-// Variant #2
+// Variant #2: Loop
 function repeatStringV2(stringy, num) {
   let output = "" // table => tabletable => tabletabletable
 
   // loope so oft wie user will
-  for(let i=1; i<=num; i++ ) { // i = 4
+  for(let i=1; i<=num; i++ ) {
     // logic: "addiere" string zu output variable
     output += stringy
   }
-  // return OUTSIDE loop
+  // return Ergebnis OUTSIDE loop
   return output
 }
 // TEST if it works
