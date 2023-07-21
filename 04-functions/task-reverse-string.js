@@ -27,16 +27,13 @@
  * 
  */
 
-// INPUT
-let stringy = "hallOOOOO" // [a,b,c]
-
 // LOGIC: to get from INPUT => OUTPUT
 /**
  * Steps visualized for helping to FIND the logic
- * ""
- * a => "a"
- * b => "ba"
- * c => "cba"
+ * Start: ""
+ * a => "a" + "" => "a"
+ * b => "b" + "a" => "ba"
+ * c => "c" + "ba"=> "cba"
  */
 
 // use INPUT variable as parameter
