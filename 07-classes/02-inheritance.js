@@ -54,9 +54,11 @@ michel.kick()
 // creates some enemies
 const angryBird = new Enemy("Angry Bird", "wing laser")
 console.log(angryBird)
-const michelsEnemy = new Enemy("Michael the dark one", "machete", 50, 8)
+const michelsEnemy = new Enemy("Michael the dark one", "machete", -50, 8)
 console.log(michelsEnemy)
+michelsEnemy.health = -70
+console.log(michelsEnemy);
 
 
-angryBird.kick()
-console.log(angryBird.nameBig)
+// angryBird.kick()
+// console.log(angryBird.nameBig)
